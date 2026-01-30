@@ -184,6 +184,7 @@ fi
 
 if [ "${BUILD_DEB}" == "true" ] ; then
   if [ ${build_oo_binaries_exit_value} -eq 0 ] ; then
+    echo "current dir " . $(pwd)
     cd deb_build
     docker build --tag onlyoffice-deb-builder . -f Dockerfile-manual-debian-11
     docker run \

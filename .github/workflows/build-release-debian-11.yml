@@ -6,8 +6,8 @@ on:
       - builds-debian-11/*
 
 env:
-  DEBIAN_PACKAGE_SUFFIX: -vcrp
-  TAG_SUFFIX: -vcrp
+  DEBIAN_PACKAGE_SUFFIX: -custom
+  TAG_SUFFIX: -custom
   DISTRO_FULLNAME: Debian 11
   DISTRO_TAG_PREFIX: debian-11
 
